@@ -20,15 +20,15 @@
 
 ### 3.1 主页面：
 
-![main](image\ssm_crud_main.png)
+![main](https://github.com/JachinYin/SSM_Employee_CURD/blob/master/image/ssm_crud_main.png)
 
 ### 3.2 新增员工：
 
-![add](image\ssm_srud_add.png)
+![add](https://github.com/JachinYin/SSM_Employee_CURD/blob/master/image/ssm_srud_add.png)
 
 ### 3.3 修改员工:
 
-![edit](image\ssm_crud_edit.png)
+![edit](https://github.com/JachinYin/SSM_Employee_CURD/blob/master/image/ssm_crud_edit.png)
 
 
 
@@ -855,7 +855,7 @@ web.xml
 
 删除员工，可以是删除单个的员工，也可以是批量勾选后进行删除。
 
-![delete](image\ssm_crud_delete.png)
+![delete](https://github.com/JachinYin/SSM_Employee_CURD/blob/master/image/ssm_crud_delete.png)
 
 该功能实现主要分为前后台的处理，客户端发送统一的 Ajax 请求，服务器端对统一的请求进行分析处理，分别由控制器实现单个删除和批量删除。
 
@@ -958,23 +958,10 @@ web.xml
 
 解决：改写逆向工程生成的 Mapper 文件，自定义 basic_column，加入需要联表查询的列，并仿写其中一些方法，实现联表操作。
 
-4.前台设计：
-
-问题：对于 BootStrap 框架的使用，特别陌生，需要在官方文档的帮助下一步步实现的，而且对于 jQuery 的使用，总是需要花费大量时间去进行一些很简单的数据获取，文档处理
-
-解决：这一问题只能是靠多用、多查、多看，加上时间的积累了吧（笑）。
-
-5.三大框架的配置文件以及整合
-
-问题：这是我的第一个 SSM 整合项目，在框架的两两整合间，多个地方显得特别迷惑，项目在实现过程中，出现了需要编辑配置文件才能解决的问题时，经常需要愣一会才想到需要修改哪一个配置文件。
-
-6.Spring 的单元测试
-
-问题：该项目没能使用上 Spring 的单元测试工具进行开发中的测试，是一大缺憾，原因是我没有掌握该工具的使用，为了节省项目的时间成本以及减少学习投入，放弃了该技术的使用。
 
 ### 10.2 项目技术结构图
 
-![tech](image\ssm_crud_tech.png)
+![tech](https://github.com/JachinYin/SSM_Employee_CURD/blob/master/image/ssm_crud_tech.png)
 
 End
 
